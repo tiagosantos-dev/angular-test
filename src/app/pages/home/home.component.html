@@ -1,0 +1,8 @@
+<section>
+    <div>
+        <h2 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Clients</h2>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;  max-width:  100%; margin: 0px 15px;">
+            <app-card *ngFor="let client of clients" [client]="client" ></app-card>
+        </div>
+    </div>
+</section>
